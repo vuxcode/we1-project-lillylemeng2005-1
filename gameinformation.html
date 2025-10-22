@@ -27,38 +27,115 @@
     }
 
 
+button {
+  background-color: #8F6400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block; 
+  padding: 16px 24px;      
+  font-size: 18px; 
+  text-align: left;
+}
+    button:hover {
+  background-color: #634501;
+}
+.buttonpossistion {
+  display: flex;
+  justify-content: flex-end;
+}
+.buttoncontainer {
+  display: flex;       
+  gap: 10px;           
+  justify-content: left; 
+  margin-top: 10px;  
+}
+
+.steps {
+      display: flex;
+      flex-direction: column;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 800px;
+    }
+
+    .step {
+      background: #8F6400;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .step img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      text-align: left;
+      background-color: #8F6400;
+      display: flex;
+    }
 
   </style>
 </head>
 <body>
 <div>
  <img src="logo.png" alt="logo"> 
-   <p><a href="aboutmepage.html">About me</a></p>
-   
-<h1>Rulesite</h1>
-<h2>Welcome to my rulesite</h2>
-<p>Here is a demostration step by step how this game is working</p>
-<img src="Step-one.png" alt="Step one"> <br>
-<p>The first step is to start writing in your name</p><br>
-<img src="Step-two.png" alt="Step two"> <br>
-<p>Now you gonna get some instruction about what you will do in the game</p><br>
-<img src="Step-three.png" alt="Step three"> <br>
-<p>Then you open the gameboardarea</p><br>
-<img src="Step-four.png" alt="Step four"> <br>
-<p>Then you have the oppertunity to start the game</p><br>
-<img src="Step-five.png" alt="Step five"> <br>
-<p>When you then press start the timer it will pop up the colororder you should remember</p><br>
-<img src="Step-six.png" alt="Step six"> <br>
-<p>When the time is out it is time to start guessing the order, but careful you only have one chance</p><br>
-<img src="Step-seven.png" alt="Step seven"> <img src="Step-eight.png" alt="Step eight"> <br>
-<p>Now it eather gonna show that is the righ or wrong order</p>
-</div>
-<p>Now it is your turn to try to play, press <i>Go to the game</i> to start playing! Good luck!</p>
+ <div class="buttoncontainer">
+      <button onclick="window.location.href='informationpage.html'">Start page</button>
+       <button onclick="window.location.href='aboutmepage.html'">About me</button>
+       <button onclick="window.location.href='Spelet.html'">The game</button>
+       </div>
+  <h1>Rulesite</h1>
+  <h2>Welcome to my rulesite</h2>
+  <p>Here is a demonstration step by step showing how the game works:</p>
+
+  <!-- Step-by-step section -->
+  <div class="steps">
+    <div class="step">
+      <img src="Step-one.png" alt="Step one">
+      <p><strong>Step 1:</strong> Start by writing your name.</p>
+    </div>
+
+    <div class="step">
+      <img src="Step-two.png" alt="Step two">
+      <p><strong>Step 2:</strong> You’ll get some instructions about what to do in the game.</p>
+    </div>
+
+    <div class="step">
+      <img src="Step-three.png" alt="Step three">
+      <p><strong>Step 3:</strong> Open the gameboard area.</p>
+    </div>
+
+    <div class="step">
+      <img src="Step-four.png" alt="Step four">
+      <p><strong>Step 4:</strong> Now you have the opportunity to start the game.</p>
+    </div>
+
+    <div class="step">
+      <img src="Step-five.png" alt="Step five">
+      <p><strong>Step 5:</strong> When you press start, the timer and color order will appear.</p>
+    </div>
+
+    <div class="step">
+      <img src="Step-six.png" alt="Step six">
+      <p><strong>Step 6:</strong> When the time runs out, start guessing the order. You only have one chance!</p>
+    </div>
+
+    <div class="step">
+      <img src="Step-sevennew.png" alt="Step seven">
+      <p><strong>Step 7:</strong> The game will show if you guessed right or wrong.</p>
+    </div>
+  </div>
+
+  <p>Now it’s your turn! Click below to start playing 🎮</p>
 <p><a href="Spelet.html">Go to the game</a></p>
 <p><a href="informationpage.html">back</a></p>
-
 <h1>Contact Information</h1>
-<p>Lilly Lindgren <br> </p>
+<p>Lilly Lindgren<br> </p>
 <p><a href="mailto:lili1017@skovde.se">lili1017@skovde.se</a></p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310.86841497482186!2d13.844960735162134!3d58.388930138694654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465b0239dca47507%3A0xb8deb26ec046b8d0!2sStorgatan%2011%2C%20541%2030%20Sk%C3%B6vde!5e0!3m2!1ssv!2sse!4v1760701327579!5m2!1ssv!2sse" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></body>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310.86841497482186!2d13.844960735162134!3d58.388930138694654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465b0239dca47507%3A0xb8deb26ec046b8d0!2sStorgatan%2011%2C%20541%2030%20Sk%C3%B6vde!5e0!3m2!1ssv!2sse!4v1760701327579!5m2!1ssv!2sse" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> 
+</body>
 </html>

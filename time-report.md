@@ -11,3 +11,10 @@
 2025-10-22 13:30 Worked for 1 hour.
 - Colorschema
 - Imagefix
+
+2025-10-24 16:20 Worked for 1 hour.
+- Fix the photo to .svg
+- Changed the style code to a own css file
+- Fix the design
+  
+

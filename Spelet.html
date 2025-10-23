@@ -2,23 +2,12 @@
 <html lang="en">
 <head>
     <title>Gamepage</title>
-     <img src="logo.png" alt="logo"> 
-        <p><a href="informationpage.html">Information</a></p>
-   <p><a href="gameinformation.html">How to play</a></p>
-   <p><a href="aboutmepage.html">About me</a></p>
-<h1>Gametime</h1>
   <style>
     body {background-color:#fff48d;}
-    h2{
-        color:#422626;
-        font-size: 150%;
-        margin: 5px 0 10px 15px;
-    }
-
     /*This is for the top of the site */
     h1{
         background: #8F6400;
-        color: #263D42;
+        color: #000000;
     }
     /*this is the info*/
         p{
@@ -28,13 +17,35 @@
         margin: 5px 0 10px 15px;
     }
     img{
-      background-color: aqua;
+      margin: 15px 0; 
     }
+.menu-button {
+  background-color: #8F6400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block; 
+  gap: 10px;  
+  padding: 16px 24px;      
+  font-size: 18px; 
+  text-align: left;
+}
+
+.menu-button:hover {
+  background-color: #634501;
+}
 
 
   </style>
 </head>
 <body>
+    <img src="logo.png" alt="logo"> 
+<div class="buttoncontainer">
+  <button class="menu-button" onclick="window.location.href='informationpage.html'">Start page</button>
+  <button class="menu-button" onclick="window.location.href='aboutmepage.html'">About me</button>
+  <button class="menu-button" onclick="window.location.href='gameinformation.html'">Rules</button>
+</div>
+<h1>Gametime</h1>
     <script>
         // Intro and when I have press (OK) the program will start running
         var intro = prompt("Hello and welcome to this game! Type in your name and then press " + "(OK)" + " to get the instruction.");
@@ -385,7 +396,6 @@
     </div>
 
     <button id="rulesbutton" onclick="myFunction()">RULES</button>
- <p><a href="gameinformation.html">How this game work</a></p>
 <h1>Contact Information</h1>
 <p>Lilly Lindgren <br> </p>
 <p><a href="mailto:lili1017@skovde.se">lili1017@skovde.se</a></p>

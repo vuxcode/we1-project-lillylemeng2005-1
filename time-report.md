@@ -17,4 +17,7 @@
 - Changed the style code to a own css file
 - Fix the design
   
-
+2025-11-04 14:00 Worked for 1,5 hour.
+- Add forms and connecct
+- Add CSS code
+- Add fronts

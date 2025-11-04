@@ -1,4 +1,5 @@
    body {background-color:#fff48d;
+    font-family: 'Roboto', sans-serif;
   }
     /*This is for the top of the site */
     h1{
@@ -91,7 +92,7 @@ button {
     }
 
     form{
-                    width: 100%;
+      width: 300px;
       max-width: 200px;
       border-radius: 10px;
     }

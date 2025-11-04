@@ -1,6 +1,5 @@
-   body {background-color:#fff48d;}
-
-
+   body {background-color:#fff48d;
+  }
     /*This is for the top of the site */
     h1{
         background: #8F6400;
@@ -89,4 +88,10 @@ button {
       border-radius: 10px;
       text-align: left;
       display: flex;
+    }
+
+    form{
+                    width: 100%;
+      max-width: 200px;
+      border-radius: 10px;
     }

@@ -17,7 +17,7 @@
         margin: 5px 0 10px 15px;
     }
 
-button {
+.roundbutton {
   background-color: #8F6400;
   border: none;
   border-radius: 10px;
@@ -93,6 +93,6 @@ button {
 
     form{
       width: 300px;
-      max-width: 200px;
       border-radius: 10px;
     }
+    

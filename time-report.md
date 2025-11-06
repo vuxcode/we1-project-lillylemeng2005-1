@@ -21,3 +21,11 @@
 - Add forms and connecct
 - Add CSS code
 - Add fronts
+
+2025-11-05 11:00 Worked for 0,5 hour
+
+2025-11-06 13:30 Worked for 1,5 hours
+- Fix the gamebutton
+- Fix the style for the about me page
+- 
+

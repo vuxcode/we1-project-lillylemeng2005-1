@@ -4,42 +4,6 @@
     <title>Gamepage</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {background-color:#fff48d;
-    font-family: 'Roboto', sans-serif;}
-    /*This is for the top of the site */
-    h1{
-        background: #8F6400;
-        color: #000000;
-    }
-    /*this is the info*/
-        p{
-        margin: 5px 0 10px 15px;
-    }
-        li{
-        margin: 5px 0 10px 15px;
-    }
-    img{
-      margin: 15px 0; 
-    }
-.menu-button {
-  background-color: #8F6400;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  display: inline-block; 
-  gap: 10px;  
-  padding: 16px 24px;      
-  font-size: 18px; 
-  text-align: left;
-}
-
-.menu-button:hover {
-  background-color: #634501;
-}
-
-
-  </style>
 </head>
 <body>
     <img src="logo.png" alt="logo"> 
@@ -50,6 +14,7 @@
 </div>
 <h1>Gametime</h1>
     <script>
+        var gameStarted = false; 
         // Intro and when I have press (OK) the program will start running
         var intro = prompt("Hello and welcome to this game! Type in your name and then press " + "(OK)" + " to get the instruction.");
         var colors = ["red", "blue", "yellow", "green", "pink", "orange", "purple", "grey", "turquoise", "lime"];
@@ -105,12 +70,17 @@
         gameareadiv.appendChild(gameareadivtext);
 
         //To get the text downbelow show and hide buttons
-        function functionshow() {
-            if (document.getElementById("gamearea").style.display == "none") {
-                document.getElementById("gamearea").style.display = "block";
-                document.getElementById("timerbutton").style.display = "block";
-            }
+function functionshow() {
+    var gamearea = document.getElementById("gamearea");
+    if (gamearea.style.display == "none") {
+        gamearea.style.display = "block";
+        if (!gameStarted) { // START TIMER visas bara första gången
+            document.getElementById("timerbutton").style.display = "block";
         }
+    }
+}
+
+        
         function functionhide() {
             if (document.getElementById("gamearea").style.display == "block") {
                 document.getElementById("gamearea").style.display = "none";
@@ -123,6 +93,11 @@
         rememberareadiv.id = "rememberarea";
         rememberareadiv.style.display = "none";
         document.getElementById("gamearea").appendChild(rememberareadiv);
+
+        var pressorder = document.createElement("div");
+        pressorder.id = "pressorder";
+        pressorder.style.display = "none";
+        document.getElementById("rememberarea").appendChild(pressorder);
 
         var remembertext = document.createElement("div");
         remembertext.id = "remembertext";
@@ -302,6 +277,7 @@
 
         // Timer function
         function startTimer() { // The things before the timer starts run
+            gameStarted = true;
             remembercanvas.style.display = "block";  // The color to rememberpops up
             colorBoardText.style.display = "block"; // The user colorboard shows up
             rememberareadiv.style.display = "block"; // The colorordertext shows
@@ -342,10 +318,8 @@
 
                 if (timeLeft <= 0) {
                     clearInterval(timer);
-                    var pressorder = document.createElement("div");
-                    pressorder.id = "pressorder";
-                    pressorder.innerHTML = "PRESS THE ORDER YOU JUST SEEN:";
-                    document.getElementById("rememberarea").appendChild(pressorder);
+                    pressorder.style.display = "block";     
+pressorder.innerHTML = "PRESS THE ORDER YOU JUST SEEN:"; 
 
                     remembercanvas.style.display = "none";
 

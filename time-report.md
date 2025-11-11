@@ -27,5 +27,8 @@
 2025-11-06 13:30 Worked for 1,5 hours
 - Fix the gamebutton
 - Fix the style for the about me page
-- 
+ 
+2025-11-11 Worked for 0,5 hour
+- Fixed the paragraf to the iframe
+- look over the design on diffrent screen size
 

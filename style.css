@@ -82,6 +82,12 @@ button{
 
 .menu-button:hover {
   background-color: #634501;
+}
+
+.colorbutton:hover {
+  background-color:colors;
+    font-size: 18px; 
+  font-weight: bold; 
   
 }
 

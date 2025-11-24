@@ -50,8 +50,13 @@
   font-size: 18px; 
   text-align: left;
 }
+button{
+      background-color: #634501;
+      color: #ffffff;
+}
     button:hover {
-  background-color: #634501;
+      background-color: #634501;
+      color: #ffffff;
 }
 .buttonpossistion {
   display: flex;
@@ -141,6 +146,7 @@
     }
     .map-box {
     padding: 20px;
+
     margin: 30px auto;
     border-radius: 10px;
 }

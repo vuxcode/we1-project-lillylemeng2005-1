@@ -32,3 +32,6 @@
 - Fixed the paragraf to the iframe
 - look over the design on diffrent screen size
 
+
+2025-11-24 Worked 1,5h in school
+- fix problems from lighthouse as colors and more

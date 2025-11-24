@@ -139,3 +139,8 @@
   width: 30%;
   max-width: 200px;
     }
+    .map-box {
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+}

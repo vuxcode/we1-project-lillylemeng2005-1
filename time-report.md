@@ -35,3 +35,19 @@
 
 2025-11-24 Worked 1,5h in school
 - fix problems from lighthouse as colors and more
+
+
+2025-11-30 Worked 1.5h
+- Fix every page and checked it in lighthouse and w3 vallidation. Now it is none warnings in W3 and is above 90 in score in lighthose for every page
+Fixed problem who came up. Here is some of the fix I made. 
+- Fixed padding: 20px; removed from css. .stepimage to not get a radius that be weird on diffrent screensize.
+- Added fetchpriority=high to fix the sppeed to get the photo
+- fixed gameinformation and   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+Score for:
+- Information page/ Index page: 98 Performance (pick up things from github like links and svg, 100 Accessibility , 100 Best Practices, 91 SEO (Document does not have a meta description it means that it is hard to find the site online without the link.)
+- Rulesite: 96 Performance (Pick up things from github like links and svg) , 100 Accessibility, 100 Best Practices,  91 SEO (Document does not have a meta description it means that it is hard to find the site online without the link.)
+- About me: 90 Performance (fonts, map, svg, 100 Accessibility, 100 Best Practices,  91 SEO (Document does not have a meta description it means that it is hard to find the site online without the link.)
+
+
+

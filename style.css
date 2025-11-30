@@ -113,6 +113,7 @@ button{
       width: 100%;
       max-width: 500px;
       border-radius: 10px;
+      padding: 20px;
       text-align: left;
       background-color: #8F6400;
       display: flex;
@@ -150,9 +151,3 @@ button{
   width: 30%;
   max-width: 200px;
     }
-    .map-box {
-    padding: 20px;
-
-    margin: 30px auto;
-    border-radius: 10px;
-}

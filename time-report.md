@@ -48,6 +48,7 @@ Score for:
 - Information page/ Index page: 98 Performance (pick up things from github like links and svg, 100 Accessibility , 100 Best Practices, 91 SEO (Document does not have a meta description it means that it is hard to find the site online without the link.)
 - Rulesite: 96 Performance (Pick up things from github like links and svg) , 100 Accessibility, 100 Best Practices,  91 SEO (Document does not have a meta description it means that it is hard to find the site online without the link.)
 - About me: 90 Performance (fonts, map, svg, 100 Accessibility, 100 Best Practices,  91 SEO (Document does not have a meta description it means that it is hard to find the site online without the link.)
+- Spelet: 20/22 Performence, 8/8 Best practices
 
 
 

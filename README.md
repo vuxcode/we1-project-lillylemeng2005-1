@@ -55,6 +55,25 @@ About me: 90 Performance (fonts, map, svg, 100 Accessibility, 100 Best Practices
 Spelet: 20/22 Performence, 8/8 Best practices
 
 # Project Summary
+It was easy to write the style, state behavior and buttons. It was harder with block (.div), class(.), color assaibility and more description.
+
+The idea from start:
+Add a button to start over the game. (more programming than web design)
+My name, email, map there you can find me and if you hover here you come to google maps there you get the adress (extern server)
+Add menu buttons (Go back and forward between the htlm pages)
+
+If I have more time:
+Change the colors for the game
+Add a square around the map
+Put the map beside the iframe (Was Colins idea)
+
+Problem/buglist
+
+padding: 20px; removed from css. .stepimage to not get a radius that be weird on diffrent screensize.
+fetchpriority=high to fix the sppeed to get the photo
+Color accessible.
+Wrong link combination
 
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
+
+
